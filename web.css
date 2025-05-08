@@ -1,0 +1,619 @@
+   *{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    background-color: #030712;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color:black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+
+}
+.links{
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+span{
+    width: 37rem;
+    height: 5.5rem;
+    
+    color: white;
+}
+#head1{
+    position: absolute;
+    top: 11rem;
+    left: 5.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+#head2{
+    position: absolute;
+    top: 17rem;
+    left: 16rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.line{
+    height: 5px;
+    width: 42px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 12rem;
+    right:31.5rem ;
+
+}
+
+.subtitle{
+    height: 200px;
+    width:450px ;
+    position: absolute;
+    top: 13.5rem;
+    right: 6rem;
+    color: white;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 400;
+}
+.vdo{
+    height: 34.375rem;
+    width: 100%;
+    object-fit: cover; 
+    opacity: 0.25;
+}
+
+#top-header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    
+}
+.head{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.head h1{
+    color: #2CB2F1;
+    font-size: 2.75rem;
+}
+.about-us{
+    width: 90%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.section1{
+
+width: 60%;
+display: flex;
+flex-direction: column;
+margin-left: 5rem;
+}
+.describtion{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.describtion p{
+    margin-top: 1rem;
+}
+.describtion h1 span{
+    font-family: 'Times New Roman', Times, serif;
+    color: #01A68E;
+    letter-spacing: 8px;
+    margin-left: 10px;
+}
+#Hello{
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    
+}
+.section2{
+
+width: 50%;
+margin-left: 13rem;
+
+}
+.section2 h2{
+    color: white;
+}
+.section2 ul li h4{
+    display: inline-block;
+    color: white;
+}
+.section2 ul li{
+    line-height: 2rem;
+}
+.myDP img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+.container{
+    width: 40%;
+    height: 8rem;
+    background-color: #111827;
+    border: 1px solid rgb(30, 31, 88);
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    border-radius: 0.75rem;
+}
+.service-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.45rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+.service-box h3{
+    color: white;
+    
+}
+.container p{
+    color: rgb(207, 188, 188);
+    margin-left: 2.25rem;
+    margin-top: 1.75rem;
+    font-size: medium;
+    font-weight: 400;
+ 
+}
+.service-box i{
+    color: skyblue;
+    padding-right: 1rem;
+    margin-top: 5px;
+   
+}
+#hover-effect{
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#hover-effect:hover {
+    transform: translateY(-5px) scale(1.05); 
+    
+    background-color: #1F2937;
+}
+.price-card{
+    width: 30%;
+    height: 20rem;
+    background-color: #111827;
+}
+
+.proj-container{
+    width: 40%;
+    background-color: #111827;
+    border: 1px solid rgb(30, 31, 88);
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    border-radius: 0.75rem;
+}
+.proj-img{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.proj-img img {
+    width: 97%;
+    height: 97%;
+    object-fit: cover;
+    border-radius: 0.75rem;
+  }
+  .card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    
+  }
+  .card-title{
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  .card-title h2{
+    color: white;
+  }
+.status{
+    display: inline-block;
+    height: 1.5rem; 
+    width: 4rem; 
+    
+    font-size: 12px;
+    position: relative;
+    bottom: 3.65rem;
+    left: 25rem;
+    padding: 2px 8px;
+    border-radius: 6px;
+    text-align: center;
+   font-weight: 450;
+   line-height: 1.5rem;
+   
+}
+.comp{
+    background-color: #153A32;
+    color: white;
+}
+.curr{
+    background-color: #0D6EFD;
+    color: white;
+}
+.description{
+    color: rgb(207, 188, 188);
+    font-size: medium;
+    font-weight: 400;
+    line-height: 1.5rem;
+    width: calc(100% - 2rem);
+}
+.tech-stack{
+    margin-top: 1rem;
+}
+.tech-stack h4{
+    color: rgba(900, 900,900, 0.80);
+}
+.tech-tag{
+    width: 20px;
+    height: 10px;
+    background-color: #1A2D50; 
+    color: white;
+    font-size: 12px;
+    padding: 4.5px 15px;
+    border-radius: 10px;
+    text-align: center;
+   font-weight: 450;
+   line-height: 1.5rem;
+   margin-right: 0.75rem;
+}
+.btn{
+    width: 10rem;
+    height: 2rem;
+    background-color: #1A2D50;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 3px;
+    display: inline-block;
+    border: none;
+    margin-top: 2rem;
+    margin-right: 6.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: medium;
+}
+.btn i{
+    margin-right: 0.75rem;
+}
+.price-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+price{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    box-sizing: border-box;
+    
+}
+.price-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.price-card{
+    color: white;
+    border: 1px solid rgb(30, 31, 88);
+    border-radius: 10px;
+    width: 300px;
+   height: 450px;
+}
+.price-card h3{
+    margin: 2rem 0 1rem 2rem;
+}
+.price-card h2{
+    color: #818CF8;
+    margin: 1rem 0 1rem 2rem;
+}
+.price-card h2 span{
+    font-size: 20px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.price-card p, li{
+    color: gray;
+    margin: 1rem 0 1rem 2rem;
+    line-height: 20px;
+}
+.quote{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 20px;
+    color: white;
+    background-color: #6366F1;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+#Popular{
+    font-size: 12.5px;
+    width: 20rem;
+    height: 1.75rem;
+    color:black;
+    background-color: #FACC15;
+    margin-left: 1rem;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.offer{
+    width: 70%;
+    height: 4rem;
+    background: linear-gradient(90deg, #2E104A 40% , #410D25 60%);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    line-height: 1.65rem;
+}
+.test-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 75%;
+    height: 180px;
+    background-color: #111827;
+    border: 1px solid rgb(30, 31, 88);
+    padding: 2rem 2rem 0 2rem;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .star{
+    display: flex;
+    flex-direction: row;
+    color: gold;
+    gap: 15px;
+} 
+#test-para{
+    color: gray;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    font-size: 17.5px;
+} 
+.profile{
+    width: 40%;
+    height: 60Px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.user{
+    width: 17.5%;
+    height: 100%;
+}
+.user img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.info{
+    margin-left: 1.5rem;
+    padding-top: 0.5rem;
+    
+    
+}
+.info h3{
+    color: white;
+}
+.info p{
+    color: gray;
+    padding-top: 0.35rem;
+} 
+.contact-container{
+    width: 90%;
+    height: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card1 , .card2{
+    border: 1px solid #6366F1;
+    width: 30%;
+    height: 90%;
+    box-sizing: border-box;
+    color: white;
+    padding: 2rem 2rem;
+    grid-auto-columns: 2rem;
+    border-radius: 10px;
+
+}
+.card1 h2, .card2 h2{
+    margin-bottom: 1.75rem;
+}
+.contact-container input{
+    border: 1px solid #6366F1;
+    width: 90%;
+    height: 2.25rem;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    color: white;
+}
+.contact-container input::placeholder{
+    padding-left: 0.7rem;
+}
+#msg{
+    padding-bottom: 3.5rem;
+}
+#msg-btn{
+    width: 90%;
+    height: 2.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color: white;
+    background-color: #11ACDB;
+    border: none;
+}
+.card2 h4 span{
+    color: #22D3EE;
+    margin-left: 10px;
+}
+.card2 h4, .card2 p{
+    margin-bottom: 1.5rem;
+}
+.card2 .fa-brands{
+    margin-bottom: 1.5rem;
+    font-size: 30px;
+    padding-right: 1rem;
+    color: #11ACDB;
+}
+.card2 button{
+    width: 200px;
+    height: 2.2rem;
+    border: none;
+    background-color: #093141;
+    color: #11ACDB;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.card2 button i{
+    margin-right: 7px;
+}
+footer{
+    width: 100%;
+    height: 275px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.first{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+
+}
+.first .logo{
+    width: 25%;
+    height: 100%;
+}
+.first .logo img{
+    width: 275px;
+    height: 13rem;
+    padding-left: 4rem;
+}
+.brand , .news{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
+.first a{
+    color: white;
+    text-decoration: none;
+    padding-left: 6rem;
+    padding-top: 1.25rem;
+}
+.social i{
+    color: white;
+    font-size: 27px;
+    margin-left: 1.25rem;
+    margin-top: 2rem;
+}
+.Horizontal-line {
+    width: 90%;               
+    height: 1px;           
+    background-color:gray;   
+    margin-left: auto;
+    margin-right: auto;  
+  }
+  
+.second{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+    align-items: center;
+    
+}
+.terms a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.terms{
+    margin-right: 5rem;
+}
+.copy-right{
+    margin-left: 5rem;
+}
+
+@media(max-width:600px){
+    nav{
+        display: none;
+    }
+} 
